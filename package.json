@@ -1,0 +1,28 @@
+{
+  "name": "qqbot-autostart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 启动后自动拉起 QQ 机器人（boot.sh），可在 /root/.dsh/qqbot-autostart.off 关闭",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/USER/qqbot-autostart.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "autostart",
+    "plugin",
+    "qq-bot"
+  ]
+}

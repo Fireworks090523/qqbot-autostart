@@ -1,0 +1,4 @@
+# QQ 机器人自启：DSH 启动后延迟执行 /root/qq-bot/boot.sh（幂等）
+- insert:
+    - id: qqbot-autostart
+      name: 'qqbot-autostart'

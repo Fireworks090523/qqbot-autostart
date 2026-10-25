@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.zip
+.TXT
+cat > .gitignore <<'TXT'
+node_modules/
+*.log
+*.zip
